@@ -1,0 +1,32 @@
+{
+  "name": "cuttingstockgeneticalgorithm",
+  "version": "1.0.0",
+  "description": "implementation of genetic algorithm for solving cutting stock problem",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext .js"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "author": "Valery Piniazik",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-cli": "^6.26.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "express": "^4.16.4"
+  }
+}
